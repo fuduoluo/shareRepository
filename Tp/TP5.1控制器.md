@@ -60,7 +60,16 @@ class Index extends Controller
 > TP5.1只能通过该方法
 >
 > 修改默认根命名空间app
-> 通过在根目录上新建.env配置文件中设置
+> 通过在根目录[不是在public里面]上新建.env配置文件中设置
+
+```php
+/*
+.env放置位置
+*/
+D:\phpstudy_pro\WWW\sprflat\.env
+//内容如下：
+APP_NAMESPACE = application 
+```
 
 ```php
  //源码加载如下：
@@ -80,6 +89,60 @@ class Index
     }
 }
 ```
+
+###### 渲染输出
+
+> 全部采用return输出
+
+###### 数据转换
+
+> ```php
+> // 默认输出类型
+> 'default_return_type'   => 'json',
+> //可以在app.php里面进行修改范湖输出内容格式
+> 
+> <?php
+> namespace app\index\controller;
+> 
+> class Index 
+> {
+>     public function data()
+>     {
+>         return ['name'=>'thinkphp','status'=>1];
+>     }
+> }
+> 输出：{"name":"thinkphp","status":1}
+> ```
+
+###### 多级控制器[控制器下有子模块]
+
+```php
+//D:\phpstudy_pro\WWW\sprflat\application\index\controller\test\Index.php
+//建议使用路由定义访问URL,可能会把多级控制器名误识别为URL后缀    
+```
+
+> test\Index.php
+
+```php
+<?php
+namespace app\index\controller\test;
+use think\Controller;
+class Index extends Controller
+{
+    public function hello($name = 'ThinkPHP5')
+    {
+        return 'hello,' . $name;
+    }
+}
+
+Route.php
+Route::get('test/index','index/test.index/hello');
+访问url:
+http://efa.cn:9091/test/index
+显示：hello,ThinkPHP5
+```
+
+
 
 ###### 前置操作
 
