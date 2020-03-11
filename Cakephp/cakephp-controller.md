@@ -152,26 +152,9 @@ public function index() {
 > $user = $this->User->read();
 > ```
 
-##### 控制器属性[组件、助件、$uses]
-
-> $name  设置控制器名称
+##### 控制器变量
 
 ```php
-// $name 控制器属性用法示例
-class RecipesController extends AppController {
-   public $name = 'Recipes';
-}
-```
-
-> ### $components、$helpers 和 $uses
-
-```php
-Controller::$uses    使用$uses当前控制器的(主要)模型名称一定也要包括在内
-//控制器中不想使用(任何)模型
-public $uses = array()
-    
-Controller::$helpers  默认情况下 HtmlHelper 、 FormHelper 和 SessionHelper 助件都是可用的
- 
  class RecipesController extends AppController {
     public $uses = array('Recipe', 'User');
     public $helpers = array('Js');
@@ -179,3 +162,61 @@ Controller::$helpers  默认情况下 HtmlHelper 、 FormHelper 和 SessionHelpe
 }
 ```
 
+> $name  设置控制器名称
+
+```php
+// $name 解决返回的类名并不遵循CamelCase（驼峰命名法）格式
+class RecipesController extends AppController {
+   public $name = 'Recipes';
+}
+```
+
+> ##### $helpers 指定其他的helper助手函数
+
+```php
+//默认情况下 HtmlHelper 、 FormHelper 和 SessionHelper 助件都是可用的
+public $helpers = array('Html','Ajax','Javascript');   
+```
+
+>  $uses 是否载入新的model进行使用
+
+```php
+var $uses = array('Fraggle','Smurf');  
+public $uses = array('Fraggle','Smurf'); 
+使用：
+$this->Fraggle
+$this->Smurf
+ //注意：你仍然需要在$uses数组里包含你的Fraggle model，即使在这之前它（Fraggle model）就已经自动可用了。
+```
+
+> $layout: 设置该变量的值为你想为这个controller使用的layout（布局）的名字
+
+> $autoRender :将这个变量设为false能让action在自动render之前自动停止
+
+```php
+$beforeFilter
+//如果你想要一些代码在每次action被调用的时候执行（并且在该action任何代码运行之前），使用$beforeFilter。这个功能用来访问控制是非常完美的－你可以在任何action执行之前检查当前用户的权限。只要将这个变量设置成一个数组，该数组包含了你想要运行的controller action（在其他action运行之前执行的action）
+    
+var $beforeFilter = array('checkAccess');  
+
+function checkAccess()  
+{  
+    //Logic to check user identity and access would go here....  
+} 
+```
+
+> $components: 用来装载你需要的组件
+
+```
+$components = array('acl');
+```
+
+##### 控制器参数
+
+> $this->params用来获取传递到controller的数据，以及提供对当前请求信息的访问
+
+```php
+$this->request->params['static']
+```
+
+![params](https://upload-images.jianshu.io/upload_images/3098875-d9fb633a12b1a428.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
