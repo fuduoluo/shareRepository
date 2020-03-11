@@ -19,9 +19,7 @@ https://github.com/fuduoluo/shareRepository.git
 
 更多手记：
 
-```js
-https://www.phpcoder.club/
-```
+博客：[LaputCat](https://www.phpcoder.club/)
 
 不足地方,请指正！！！！！
 
