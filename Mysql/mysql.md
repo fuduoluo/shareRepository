@@ -33,7 +33,7 @@ show processlist
 -- 改
     UPDATE 表名 SET 字段名=新值[, 字段名=新值] [更新条件]
     
--- 新增字段
+-- 新增字段[修改字段类型注释长度]
 []表示可选
 ALTER TABLE 表名 ADD COLUMN 字段名 字段类型(长度值) [NOT NULL] DEFAULT 默认值 comment '注释' ;
 
