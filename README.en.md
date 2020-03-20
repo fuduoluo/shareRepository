@@ -1,36 +1,29 @@
 # shareRepository
 
-#### Description
-主要是分享工作中问题和总结[不是很完善,多pull requests进行完善]
+#### Introduction
 
-#### Software Architecture
-Software architecture description
+##### This warehouse is mainly encountered or notes encountered in learning or learning
 
-#### Installation
+##### Summary of problems encountered every week
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### Quick start
 
-#### Instructions
+```
+https://github.com/fuduoluo/shareRepository.git
+```
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+##### Pull using git and download to local
 
-#### Contribution
+##### The content is mainly arranged in markdown syntax
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+At present, gitbhub is publicly visible, and Code Cloud has not yet created a warehouse. It is being perfected ...
 
+Later, the permissions of the warehouse members will be set! !! !! !!
 
-#### Gitee Feature
+More notes:
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+Blog: [LaputCat](https://www.phpcoder.club/)
+
+Deficiencies, please correct me! !! !! !! !!
+
+Welcome new branches to add push! !! !!

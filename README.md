@@ -1,37 +1,28 @@
 # shareRepository
+#### 简介
 
-#### 介绍
-主要是分享工作中问题和总结[不是很完善,多pull requests进行完善]
+##### 该仓库主要是平时遇到或者学习上遇到问题或手记
 
-#### 软件架构
-软件架构说明
+##### 每周遇到问题汇总
 
+#### 快速开始
 
-#### 安装教程
+```js
+https://github.com/fuduoluo/shareRepository.git
+```
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+##### 使用git进行拉取,下载到本地
 
-#### 使用说明
+##### 主要是以markdown语法进行编排文章内容
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+目前gitbhub是公开可见，码云还没有创建仓库正在完善中....
 
-#### 参与贡献
+后面之后会进行仓库成员权限设置！！！！
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+更多手记：
 
+博客：[LaputCat](https://www.phpcoder.club/)
 
-#### 码云特技
+不足地方,请指正！！！！！
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+欢迎新建分支进行push补充！！！ 
