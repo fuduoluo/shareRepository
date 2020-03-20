@@ -105,7 +105,7 @@ $total=$this->TopicLaw->find('count',array('conditions'=>$conditions));
 > 	$Model 
 >
 >  	string|array $conditions = *null* 
->
+>	
 >  	string $keyPath = *null* 
 >
 > ​	string $valuePath = *null* ,

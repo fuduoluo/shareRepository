@@ -8,8 +8,9 @@
 
 #### Quick start
 
-```
-https://github.com/fuduoluo/shareRepository.git
+```js
+github address:https://github.com/fuduoluo/shareRepository.git[the status is private]
+gitee address:https://gitee.com/s_lindan/shareRepository.git [the status is private.but you can git clone it,if you are the respository member.]
 ```
 
 ##### Pull using git and download to local
@@ -24,6 +25,6 @@ More notes:
 
 Blog: [LaputCat](https://www.phpcoder.club/)
 
-Deficiencies, please correct me! !! !! !! !!
+Deficiencies, please correct me! ! ! ! !
 
-Welcome new branches to add push! !! !!
+Welcome to create your own branch for push supplementation, do not add it to the main branch [you can make pull requests, or raise issues]! ! ! !

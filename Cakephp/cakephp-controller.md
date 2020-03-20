@@ -156,6 +156,7 @@ public function index() {
 
 ```php
  class RecipesController extends AppController {
+    public $name = "Recipes";
     public $uses = array('Recipe', 'User');
     public $helpers = array('Js');
     public $components = array('RequestHandler');
@@ -220,3 +221,30 @@ $this->request->params['static']
 ```
 
 ![params](https://upload-images.jianshu.io/upload_images/3098875-d9fb633a12b1a428.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+##### cakephp中[viewClass](https://book.cakephp.org/2/zh/views.html)使用【下载文件使用】
+
+###### 使用：
+
+![image.png](https://i.loli.net/2020/03/19/Bar6uSTieUG3tVj.png)
+
+之前自己创建一个新的视图类文件我是放在lib/cake/view中[其他位置我使用会报错，可能我姿势不对！]
+
+控制器中：
+
+```php
+$this->viewClass = 'Media';//框架自带
+//Media指命名视图类名称【可以自定义】
+
+$params = array(
+    'id'        => $contract['Contract']['doc_name'],//下载文件名称【用于拼接路径】
+    'name'      => $contract['Contract']['title'],//下载文件名
+    'download'  => true,//是否开启下载
+    'extension' => $contract['Contract']['doc_ext'],//文件后缀
+    'mimeType'  => array(
+        $contract['Contract']['doc_ext'] => 'application/octet-stream',//接受文件格式
+    ),
+    'path'      => $path,//需要下载文件路径
+);
+$this->set($params);
+```

@@ -8,14 +8,15 @@
 #### 快速开始
 
 ```js
-https://github.com/fuduoluo/shareRepository.git
+github address:https://github.com/fuduoluo/shareRepository.git [状态为private]
+gitee address:https://gitee.com/s_lindan/shareRepository.git [状态为private。但是如果您是存储库成员，则可以git clone它]
 ```
 
 ##### 使用git进行拉取,下载到本地
 
 ##### 主要是以markdown语法进行编排文章内容
 
-目前gitbhub是公开可见，码云还没有创建仓库正在完善中....
+目前gitbhub是私有，码云已创建但笔记还在不断完善中....
 
 后面之后会进行仓库成员权限设置！！！！
 
@@ -25,4 +26,4 @@ https://github.com/fuduoluo/shareRepository.git
 
 不足地方,请指正！！！！！
 
-欢迎新建分支进行push补充！！！ 
+### 欢迎新建自己分支进行push补充，切勿添加到主分支上去[可以进行pull requests,或者提issue] 
