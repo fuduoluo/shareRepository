@@ -58,7 +58,7 @@ $cfg['Servers'][$i]['AllowNoPassword'] = true;是否允许空密码登录
 $cfg[‘blowfish_secret’] = ‘123456’; // 你要设置的密码
 ```
 
-![image.png](https://upload-images.jianshu.io/upload_images/3098875-6038d7cbe84b56ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://i.loli.net/2020/03/21/zufVK3S2AXCJpgW.png)
 
 #### xmapp和phpstudy同时启动mysql服务
 
