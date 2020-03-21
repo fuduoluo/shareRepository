@@ -47,7 +47,7 @@ for ($i = 1; $i <= count($connect_hosts); $i++) {
 }
 ```
 
-![image.png](https://upload-images.jianshu.io/upload_images/3098875-c8703e4d0480aa16.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://i.loli.net/2020/03/21/8fBUC2chPSET3Jp.png)
 
 ##### 可能遇到问题：
 
@@ -62,7 +62,7 @@ $cfg[‘blowfish_secret’] = ‘123456’; // 你要设置的密码
 
 #### xmapp和phpstudy同时启动mysql服务
 
-![image.png](https://upload-images.jianshu.io/upload_images/3098875-e52f226ce5128398.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://i.loli.net/2020/03/21/wGxWpndDcMNLoil.png)
 
 > 之前会遇到两个mysql不能同时启动，现在比较简单做法是先确定xmapp的mysql版本号
 >
@@ -70,5 +70,5 @@ $cfg[‘blowfish_secret’] = ‘123456’; // 你要设置的密码
 >
 > 我这phpstudy安装是5.5.29
 
-![image.png](https://upload-images.jianshu.io/upload_images/3098875-33bcbef6838b9d34.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://i.loli.net/2020/03/21/m19of5zyYnsIZMg.png)
 
