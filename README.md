@@ -10,8 +10,8 @@
 #### 快速开始
 
 ```js
-github address:https://github.com/fuduoluo/shareRepository.git [状态为private]
-gitee address:https://gitee.com/s_lindan/shareRepository.git [状态为private。但是如果您是存储库成员，则可以git clone它]
+github address:https://github.com/fuduoluo/shareRepository.git
+gitee address:https://gitee.com/s_lindan/shareRepository.git 
 ```
 
 ##### 使用git进行拉取,下载到本地
