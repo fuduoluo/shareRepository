@@ -64,7 +64,3 @@
     }
   };
 </script>
-<style scoped>
-/* scoped：该组件中局部引入 bootstrap 样式，不影响全局样式 */
-@import "https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css";
-</style>
