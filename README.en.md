@@ -19,10 +19,6 @@ gitee address:https://gitee.com/s_lindan/shareRepository.git
 
 ##### The content is mainly arranged in markdown syntax
 
-At present, gitbhub is publicly visible, and Code Cloud has not yet created a warehouse. It is being perfected ...
-
-Later, the permissions of the warehouse members will be set! !! !! !!
-
 More notes:
 
 Blog: [LaputCat](https://www.phpcoder.club/)

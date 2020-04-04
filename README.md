@@ -18,10 +18,6 @@ gitee address:https://gitee.com/s_lindan/shareRepository.git
 
 ##### 主要是以markdown语法进行编排文章内容
 
-目前gitbhub是私有，码云已创建但笔记还在不断完善中....
-
-后面之后会进行仓库成员权限设置！！！！
-
 更多手记：
 
 博客：[LaputCat](https://www.phpcoder.club/)
