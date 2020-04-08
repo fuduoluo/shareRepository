@@ -2,11 +2,13 @@
 
 <center><font size=8>shareRepository</font></center>
 
+---
+
+
 
 
 <center><font size=3>shareRepository is a project that records problems and solutions in work development. At present, it is still increasing and improving. From time to time, interesting technical documentation learning resources will be updated and links to websites, blogs, etc. related to front-end development that has long been .</font></center>
-
-​																					[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 
 * If you think it helps you, you can click on `Star` this item in the upper right corner, I will continue to update the problems and solutions encountered or resources and links.
 
