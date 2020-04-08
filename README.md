@@ -1,26 +1,105 @@
-# shareRepository
-#### 简介
+![image.png](https://i.loli.net/2020/04/08/D47fFg53xr2GEdk.png)									
 
-##### 该仓库主要是平时遇到或者学习上遇到问题或手记
+## 																																				  shareRepository
 
-##### 欢迎新建自己分支进行push补充，切勿添加到主分支上去[可以进行pull requests,或者提issue] 
+<center><font size=3>shareRepository is a project that records problems and solutions in work development. At present, it is still increasing and improving. From time to time, interesting technical documentation learning resources will be updated and links to websites, blogs, etc. related to front-end development that has long been .</font></center>
 
-##### 每周遇到问题汇总[放置在EdayFQA文件中]
+​																					[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-#### 快速开始
+* If you think it helps you, you can click on `Star` this item in the upper right corner, I will continue to update the problems and solutions encountered or resources and links.
 
-```js
-github address:https://github.com/fuduoluo/shareRepository.git
-gitee address:https://gitee.com/s_lindan/shareRepository.git 
-```
+***
 
-##### 使用git进行拉取,下载到本地
 
-##### 主要是以markdown语法进行编排文章内容
 
-更多手记：
+### Table  of Contents
 
-博客：[LaputCat](https://www.phpcoder.club/)
+#### Start here
 
-不足地方,请指正！！！！！
+1. [Introduction](#Introduction)
+2. [EdayFQA](#EdayFQA)
+3. [codeList](#codeList)
+4. [SEO](#SEO)
+5. [Tool](#Tool)
+6. [Javascript](#Javascript)
+7. [Mysql](#Mysql)
+8. [小程序[公众号]](#小程序[公众号])
+
+___
+
+
+
+#### Introduction
+-Mainly encountered problems or notes in daily work or study, constantly updated ...
+
+-Welcome to create a new PR or submit an issue ...
+
+-The finishing is not perfect, please forgive me! !!
+
+[Network delay ... click to enter the code cloud](gitee address:https://gitee.com/s_lindan/shareRepository.git )
+
+#### EdayFQA
+
+- Weekly problem summary
+
+#### codeList
+
+- Wait a minute ...
+
+#### SEO
+
+- Wait a minute ...
+
+#### Tool
+
+- xampp integrated environment
+
+#### Javascript
+
+- ES6
+- Vue
+- js
+
+#### Mysql
+
+- Wait a minute ...
+
+#### mini programs[WeChat Official Accounts]
+
+- H5 authorized login
+- Public test number access process
+
+#### Blog：[LaputCat](https://www.phpcoder.club/)
+
+![image.png](https://i.loli.net/2020/04/08/w2lTrb8pREieOtJ.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
