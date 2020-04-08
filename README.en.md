@@ -1,20 +1,24 @@
-![image.png](https://i.loli.net/2020/04/08/D47fFg53xr2GEdk.png)									
+![image.png](https://i.loli.net/2020/04/08/D47fFg53xr2GEdk.png)
+
+​									
 
 <center><font size=8>shareRepository</font></center>
+
+
 
 ---
 
 
 
+<center>shareRepository is a project that records problems and solutions in work development. At present, it is still increasing and improving. From time to time, interesting technical documentation learning resources will be updated and links to websites, blogs, etc. related to front-end development that has long been .</center>
 
-<center><font size=3>shareRepository is a project that records problems and solutions in work development. At present, it is still increasing and improving. From time to time, interesting technical documentation learning resources will be updated and links to websites, blogs, etc. related to front-end development that has long been .</font></center>
 ![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 
 * If you think it helps you, you can click on `Star` this item in the upper right corner, I will continue to update the problems and solutions encountered or resources and links.
 
 ***
 
-#### [中文](https://gitee.com/s_lindan/shareRepository/blob/master/README.md)
+#### [中文](https://github.com/fuduoluo/shareRepository/blob/master/README.md)
 
 ### Table  of Contents
 

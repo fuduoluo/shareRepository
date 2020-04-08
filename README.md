@@ -1,11 +1,17 @@
 ![image.png](https://i.loli.net/2020/04/08/D47fFg53xr2GEdk.png)
 
+
+
 <center><font size=8>shareRepository</font></center>
+
+
+
 ---
 
 
 
-<center><font size=3>shareRepository是一个记录工作开发中的问题和解决方法项目。目前还在不断增加和完善中，不定时会更新有趣的技术文档学习资源以及在长期关注的前端开发相关的网站、博客等链接。</font></center>
+<center>shareRepository是一个记录工作开发中的问题和解决方法项目。目前还在不断增加和完善中，不定时会更新有趣的技术文档学习资源以及在长期关注的前端开发相关的网站、博客等链接。</center>
+
 
 
 ![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
@@ -14,7 +20,7 @@
 
 ***
 
-#### [ENGLISH](https://gitee.com/s_lindan/shareRepository/blob/master/README.en.md)
+#### [ENGLISH]https://github.com/fuduoluo/shareRepository/blob/master/README.en.md)
 
 ### Table  of Contents
 
