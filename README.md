@@ -1,16 +1,16 @@
-![image.png](https://i.loli.net/2020/04/08/D47fFg53xr2GEdk.png)									
+![image.png](https://i.loli.net/2020/04/08/D47fFg53xr2GEdk.png)		
 
-## 																																				  shareRepository
+<center><font size=8>shareRepository</font></center>
 
-<center><font size=3>shareRepository is a project that records problems and solutions in work development. At present, it is still increasing and improving. From time to time, interesting technical documentation learning resources will be updated and links to websites, blogs, etc. related to front-end development that has long been .</font></center>
+<center><font size=3>shareRepository是一个记录工作开发中的问题和解决方法项目。目前还在不断增加和完善中，不定时会更新有趣的技术文档学习资源以及在长期关注的前端开发相关的网站、博客等链接。</font></center>
 
-​																					[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+​																				[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-* If you think it helps you, you can click on `Star` this item in the upper right corner, I will continue to update the problems and solutions encountered or resources and links.
+* 如果你觉得有帮助你的话，可点击右上角`Star`此项目, 我会持续更新遇到问题和解决方法或是资源和链接。
 
 ***
 
-
+#### [ENGLISH](https://gitee.com/s_lindan/shareRepository/blob/master/README.en.md)
 
 ### Table  of Contents
 
@@ -30,76 +30,46 @@ ___
 
 
 #### Introduction
--Mainly encountered problems or notes in daily work or study, constantly updated ...
 
--Welcome to create a new PR or submit an issue ...
+- 主要是平时工作遇到或者学习上遇到问题或手记，不断更新中....
 
--The finishing is not perfect, please forgive me! !!
+- 欢迎新建进行PR补充或者提交issue...
 
-[Network delay ... click to enter the code cloud](gitee address:https://gitee.com/s_lindan/shareRepository.git )
+- 整理不够完善，请见谅！！！
+
+[网络延迟....点击进入码云](gitee address:https://gitee.com/s_lindan/shareRepository.git )
 
 #### EdayFQA
 
-- Weekly problem summary
+- 每周遇到的问题汇总
 
 #### codeList
 
-- Wait a minute ...
+- 稍等中....
 
 #### SEO
 
-- Wait a minute ...
+- 稍等中....
 
 #### Tool
 
-- xampp integrated environment
+- xmapp集成环境
 
 #### Javascript
 
 - ES6
 - Vue
-- js
+- js原型
 
 #### Mysql
 
-- Wait a minute ...
+- 稍等中....
 
-#### mini programs[WeChat Official Accounts]
+#### 小程序[公众号]
 
-- H5 authorized login
-- Public test number access process
+- H5授权登录
+- 公众测试号接入流程
 
 #### Blog：[LaputCat](https://www.phpcoder.club/)
 
 ![image.png](https://i.loli.net/2020/04/08/w2lTrb8pREieOtJ.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
