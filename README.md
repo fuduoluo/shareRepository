@@ -1,26 +1,16 @@
-![image.png](https://i.loli.net/2020/04/08/D47fFg53xr2GEdk.png)
 
 
+<h1 align="center"><a target="_blank" herf="https://gitub.com/fuduoluo/shareRepository" alt="shareRepository"><img src="https://i.loli.net/2020/04/08/D47fFg53xr2GEdk.png" width = "400" style="max-width:100%;align:center"/></a></h1>
 
-<center><font size=8>shareRepository</font></center>
+<h1 align="center">&nbsp;shareRepository&nbsp;</h1>
 
+<h4 align="center">shareRepository是一个记录工作开发中的问题和解决方法项目。目前还在不断增加和完善中，不定时会更新有趣的技术文档学习资源以及在长期关注的前端开发相关的网站、博客等链接。</h4>
 
-
----
-
-
-
-<center>shareRepository是一个记录工作开发中的问题和解决方法项目。目前还在不断增加和完善中，不定时会更新有趣的技术文档学习资源以及在长期关注的前端开发相关的网站、博客等链接。</center>
-
-
-
-![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
+<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" width = "100" />
 
 * 如果你觉得有帮助你的话，可点击右上角`Star`此项目, 我会持续更新遇到问题和解决方法或是资源和链接。
 
-***
-
-#### [ENGLISH]https://github.com/fuduoluo/shareRepository/blob/master/README.en.md)
+#### [ENGLISH](https://github.com/fuduoluo/shareRepository/blob/master/README.en.md)
 
 ### Table  of Contents
 
