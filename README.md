@@ -16,7 +16,7 @@
 
 #### [ENGLISH](https://github.com/fuduoluo/shareRepository/blob/master/README.en.md)
 
-##### [网络延迟....点击进入码云](gitee address:https://gitee.com/s_lindan/shareRepository.git)
+##### [网络延迟....点击进入码云](https://gitee.com/s_lindan/shareRepository.git)
 
 ### Table  of Contents
 

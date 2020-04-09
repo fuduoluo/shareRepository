@@ -14,7 +14,7 @@
 
 #### [中文](https://github.com/fuduoluo/shareRepository/blob/master/README.md)
 
-##### [Network delay ... click to enter the code cloud](gitee address:https://gitee.com/s_lindan/shareRepository.git)
+##### [Network delay ... click to enter the code cloud](https://gitee.com/s_lindan/shareRepository.git)
 
 ### Table  of Contents
 
