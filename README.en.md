@@ -14,6 +14,8 @@
 
 #### [中文](https://github.com/fuduoluo/shareRepository/blob/master/README.md)
 
+##### [Network delay ... click to enter the code cloud](gitee address:https://gitee.com/s_lindan/shareRepository.git)
+
 ### Table  of Contents
 
 #### Start here
@@ -25,7 +27,7 @@
 5. [Tool](#Tool)
 6. [Javascript](#Javascript)
 7. [Mysql](#Mysql)
-8. [mini programs[WeChat Official Accounts]](#mini programs[WeChat Official Accounts])
+8. [mini-programs](#mini-programs)
 
 ___
 
@@ -37,8 +39,6 @@ ___
 -Welcome to create a new PR or submit an issue ...
 
 -The finishing is not perfect, please forgive me! !!
-
-[Network delay ... click to enter the code cloud](gitee address:https://gitee.com/s_lindan/shareRepository.git)
 
 #### EdayFQA
 
@@ -66,7 +66,7 @@ ___
 
 - Wait a minute ...
 
-#### mini programs[WeChat Official Accounts]
+#### mini-programs
 
 - H5 authorized login
 - Public test number access process
