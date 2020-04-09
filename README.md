@@ -6,7 +6,11 @@
 
 <h4 align="center">shareRepository是一个记录工作开发中的问题和解决方法项目。目前还在不断增加和完善中，不定时会更新有趣的技术文档学习资源以及在长期关注的前端开发相关的网站、博客等链接。</h4>
 
-<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" width = "100" />
+<h1 align="center">
+    
+</h1>
+
+<h1 align="center"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" width = "100" /></h1>
 
 * 如果你觉得有帮助你的话，可点击右上角`Star`此项目, 我会持续更新遇到问题和解决方法或是资源和链接。
 
@@ -23,7 +27,7 @@
 5. [Tool](#Tool)
 6. [Javascript](#Javascript)
 7. [Mysql](#Mysql)
-8. [小程序[公众号]](#小程序[公众号])
+8. [mini programs[WeChat Official Accounts]](#mini programs[WeChat Official Accounts])
 
 ___
 
@@ -37,7 +41,7 @@ ___
 
 - 整理不够完善，请见谅！！！
 
-[网络延迟....点击进入码云](gitee address:https://gitee.com/s_lindan/shareRepository.git )
+[网络延迟....点击进入码云](gitee address:https://gitee.com/s_lindan/shareRepository.git)
 
 #### EdayFQA
 
@@ -65,7 +69,7 @@ ___
 
 - 稍等中....
 
-#### 小程序[公众号]
+#### mini programs[WeChat Official Accounts]
 
 - H5授权登录
 - 公众测试号接入流程

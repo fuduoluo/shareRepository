@@ -8,7 +8,7 @@
 
 <h4 align="center">shareRepository is a project that records problems and solutions in work development. At present, it is still increasing and improving. From time to time, interesting technical documentation learning resources will be updated and links to websites, blogs, etc. related to front-end development that has long been .</h4>
 
-<img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" width = "100" />
+<h1 align="center"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" width = "100" /></h1>
 
 * If you think it helps you, you can click on `Star` this item in the upper right corner, I will continue to update the problems and solutions encountered or resources and links.
 
@@ -25,7 +25,7 @@
 5. [Tool](#Tool)
 6. [Javascript](#Javascript)
 7. [Mysql](#Mysql)
-8. [小程序[公众号]](#小程序[公众号])
+8. [mini programs[WeChat Official Accounts]](#mini programs[WeChat Official Accounts])
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 -The finishing is not perfect, please forgive me! !!
 
-[Network delay ... click to enter the code cloud](gitee address:https://gitee.com/s_lindan/shareRepository.git )
+[Network delay ... click to enter the code cloud](gitee address:https://gitee.com/s_lindan/shareRepository.git)
 
 #### EdayFQA
 
