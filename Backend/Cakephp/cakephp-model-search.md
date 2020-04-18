@@ -32,10 +32,38 @@ class User extends AppModel
 ```
 
 ##### 常用获取数据方法
+###### find
+
+> find方法只返回list中的第一个结果数组。
+>
+> 所有检索数据方法中的多功能机器。`$type` 参数值可以是 `'all'` 、`'first'` 、 `'count'` 、 `'list'` 、`'neighbors'` 或 `'threaded'`，或者任何自定义查询类型。切记 `$type` 是大小写敏感的
+
+```php
+  string $conditions  检索条件,就是sql中where子句
+  array $fields  检索属性，就是投影，指定所有你希望返回的属性
+  string $order 排序属性
+  int $recursive  递归 当设为大于1的整数时，将返回该model关联的其他对象	
+```
+
+```php
+array(
+    'conditions' => array('Model.field' => $thisValue), //查询条件数组
+    'recursive' => 1, //整型
+    //字段名数组
+    'fields' => array('Model.field1', 'DISTINCT Model.field2'),
+    //定义排序的字符串或者数组
+    'order' => array('Model.created', 'Model.field3 DESC'),
+    'group' => array('Model.field'), //用来分组(*GROUP BY*)的字段
+    'limit' => n, //整型
+    'page' => n, //整型
+    'offset' => n, //整型
+    'callbacks' => true //其他值可以是 false, 'before', 'after'
+)
+```
 
 ###### find('all',array())
 
-> findAll=>find('all',array()) 返回所有结果集数组
+> findAll=>find('all',array()) 返回所有结果集数组,是所有的`find()` 方法的变体、包括 `paginate` 方法使用的内在机制
 
 ```php
   string $conditions  检索条件,就是sql中where子句
@@ -48,32 +76,92 @@ class User extends AppModel
 
 ```php
 //写法
-$this->HomeStyle->find('all'array(
-                           "order"=>array("sort"=>"desc"),
-                            "fields"=>array("id","name"),
-                            "limit"=>15,
-                            "page"=> 1,
-                            "recursive"=>-1)
+$this->HomeStyle->find('all',
+              array(
+             "order"=>array("sort"=>"desc"),
+              "fields"=>array("id","name"),
+             "limit"=>15,
+             "page"=> 1,
+             "recursive"=>-1)
 )
 ```
 
-###### find
-
-> find方法只返回list中的第一个结果数组。
+> 返回格式如下：
 
 ```php
-  string $conditions  检索条件,就是sql中where子句
-  array $fields  检索属性，就是投影，指定所有你希望返回的属性
-  string $order 排序属性
-  int $recursive  递归 当设为大于1的整数时，将返回该model关联的其他对象	
+Array
+(
+    [0] => Array
+        (
+            [ModelName] => Array
+                (
+                    [id] => 83
+                    [field1] => value1
+                    [field2] => value2
+                    [field3] => value3
+                )
+ 
+            [AssociatedModelName] => Array
+                (
+                    [id] => 1
+                    [field1] => value1
+                    [field2] => value2
+                    [field3] => value3
+                )
+ 
+        )
+)
 ```
+
+###### find('first',$params)
+
+>  只返回一条记录
+
+```php
+public function some_function() {
+    // ...
+    $semiRandomArticle = $this->Article->find('first');
+    $lastCreated = $this->Article->find('first', array(
+        'order' => array('Article.created' => 'desc')
+    ));
+    $specificallyThisOne = $this->Article->find('first', array(
+        'conditions' => array('Article.id' => 1)
+    ));
+    // ...
+}
+```
+
+> 返回格式
+
+```php
+Array
+(
+    [ModelName] => Array
+        (
+            [id] => 83
+            [field1] => value1
+            [field2] => value2
+            [field3] => value3
+        )
+ 
+    [AssociatedModelName] => Array
+        (
+            [id] => 1
+            [field1] => value1
+            [field2] => value2
+            [field3] => value3
+        )
+)
+```
+
+
 
 ###### findAllBy字段属性 
 
 > findAllBy<fieldName>
 >   string $value 
 >
-> 返回是一个数组
+> 返回是一个数组,返回结果数组的格式与 `find('all')` 的返回值格式一样
 
 ```php
 //控制器下使用：
@@ -86,27 +174,196 @@ $result = $this->Customer->findByAccount($userName);
 $this->loadModel('PostProduct');
 $this->PostProduct->unbindModel(array('belongsTo'=> array('Product')));
 $posts = $this->PostProduct->findAllByProductId($product['Product']['id']);
-
 ```
 
-###### findCount 
+![image.png](https://i.loli.net/2020/04/14/eovEjM5iJDCVntU.png)
+
+###### findBy
+
+![image.png](https://i.loli.net/2020/04/15/uPH9p1C4sqkmazj.png)
+
+###### find('count',$params) 
 
 > findCount  =>find('count')
->   string $conditions 
-> 返回conditions过滤后结果集的数量。即select count
+> string $conditions 
+>
+> 返回一个整数值。即select count
 
 ```php
 $total=$this->TopicLaw->find('count',array('conditions'=>$conditions));
 ```
+
+###### find('list')
+
+> 返回一个索引数组，可用于任何需要列表的场合，比如在生成填充 select 输入元素的列表框
+
+```php
+public function some_function() {
+    // ...
+    $allArticles = $this->Article->find('list');
+    $pending = $this->Article->find('list', array(
+        'conditions' => array('Article.status' => 'pending')
+    ));
+    $allAuthors = $this->Article->User->find('list');
+    $allPublishedAuthors = $this->Article->find('list', array(
+        'fields' => array('User.id', 'User.name'),
+        'conditions' => array('Article.status !=' => 'pending'),
+        'recursive' => 0
+    ));
+    // ...
+}
+```
+
+> 返回格式
+
+```json
+Array
+(
+    //[id] => 'displayValue',
+    [1] => 'displayValue1',
+    [2] => 'displayValue2',
+    [4] => 'displayValue4',
+    [5] => 'displayValue5',
+    [6] => 'displayValue6',
+    [3] => 'displayValue3',
+)
+```
+
+###### find('threaded')
+
+>  返回一个嵌套数组，适用于想使用模型数据的`parent_id` 字段来建立嵌套结果的情况
+
+```php
+public function some_function() {
+    // ...
+    $allCategories = $this->Category->find('threaded');
+    $comments = $this->Comment->find('threaded', array(
+        'conditions' => array('article_id' => 50)
+    ));
+    // ...
+}
+```
+
+> 返回格式
+
+```php
+Array
+(
+    [0] => Array
+    (
+        [ModelName] => Array
+        (
+            [id] => 83
+            [parent_id] => null
+            [field1] => value1
+            [field2] => value2
+            [field3] => value3
+        )
+ 
+        [AssociatedModelName] => Array
+        (
+            [id] => 1
+            [field1] => value1
+            [field2] => value2
+            [field3] => value3
+        )
+ 
+        [children] => Array
+        (
+            [0] => Array
+            (
+                [ModelName] => Array
+                (
+                    [id] => 42
+                    [parent_id] => 83
+                    [field1] => value1
+                    [field2] => value2
+                    [field3] => value3
+                )
+ 
+                [AssociatedModelName] => Array
+                (
+                    [id] => 2
+                    [field1] => value1
+                    [field2] => value2
+                    [field3] => value3
+                )
+ 
+                [children] => Array
+                (
+                )
+            )
+            ...
+        )
+    )
+)
+```
+
+###### find('neighbors')
+
+> `find('neighbors', $params)` 方法执行的查找与 'first' 类似, 但返回查询的记录的前一条和后一条记录
+
+```php
+public function some_function() {
+    $neighbors = $this->Article->find(
+        'neighbors',
+        array('field' => 'id', 'value' => 3)
+    );
+}
+```
+
+> 返回格式
+
+```php
+Array
+(
+    [prev] => Array
+    (
+        [ModelName] => Array
+        (
+            [id] => 2
+            [field1] => value1
+            [field2] => value2
+            ...
+        )
+        [AssociatedModelName] => Array
+        (
+            [id] => 151
+            [field1] => value1
+            [field2] => value2
+            ...
+        )
+    )
+    [next] => Array
+    (
+        [ModelName] => Array
+        (
+            [id] => 4
+            [field1] => value1
+            [field2] => value2
+            ...
+        )
+        [AssociatedModelName] => Array
+        (
+            [id] => 122
+            [field1] => value1
+            [field2] => value2
+            ...
+        )
+    )
+)
+```
+
+##### 树状结构
 
 ###### generateTreeList
 
 > generateTreeList
 > 	$Model 
 >
->  	string|array $conditions = *null* 
->	
->  	string $keyPath = *null* 
+>  ​    string|array $conditions = *null* 
+>
+>  ​    string $keyPath = *null* 
 >
 > ​	string $valuePath = *null* ,
 >
@@ -120,6 +377,8 @@ $total=$this->TopicLaw->find('count',array('conditions'=>$conditions));
 $categories = $this->ContractCategory->generateTreeList(null, null, null, '&nbsp;&nbsp;&nbsp;', 1);
 ```
 
+##### 自定义执行语句
+
 ###### query/execute
 
 > 使用query(string $query)和execute(string $query)方法
@@ -128,7 +387,7 @@ $categories = $this->ContractCategory->generateTreeList(null, null, null, '&nbsp
 >
 > execute方法无返回值，适用于执行脚本
 
-###### 保存数据-save/saveField
+##### 保存数据-save/saveField
 
 > 当需要保存model对象时（使用持久化），你需要提供如下形式的数据给save()方法
 
@@ -315,7 +574,9 @@ $this->Post->Comment->save($this->data);
 >
 > 无论是belongsTo, hasOne还是hasMany关联，在保存关联子对象时候都要记住把父对象的ID保存在子对象中
 
-##### bindModel(),unbindModel()
+##### 关联模型bindModel()
+
+##### 解绑模型unbindModel()
 
 > 前提是你的数据库表中的外键关联等已经正确设置
 
@@ -340,7 +601,7 @@ class Follower extends AppModel
   
 ```
 
-###### 使用
+使用
 
 ```php
 动态解除关联：
