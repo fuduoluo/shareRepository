@@ -19,13 +19,15 @@
 #### Start here
 
 1. [Introduction](#Introduction)
-2. [EdayFQA](#EdayFQA)
-3. [codeList](#codeList)
-4. [SEO](#SEO)
-5. [Tool](#Tool)
-6. [Javascript](#Javascript)
-7. [Mysql](#Mysql)
-8. [mini-programs](#mini-programs)
+2. Backend
+3. [EdayFQA](#EdayFQA)
+4. [codeList](#codeList)
+5. [SEO](#SEO)
+6. [Tool](#Tool)
+7. [Javascript](#Javascript)
+8. [Mysql](#Mysql)
+9. [wechat](#wechat)
+10. [link](#link)
 
 ___
 
@@ -43,15 +45,16 @@ ___
 
 #### codeList
 
-- 稍等中....
+- js或者是PHP常用函数
 
 #### SEO
 
-- 稍等中....
+- [博客优化](https://www.phpcoder.club/posts/895444f1.html)
 
 #### Tool
 
 - xmapp集成环境
+- GitHub小技巧
 
 #### Javascript
 
@@ -61,12 +64,13 @@ ___
 
 #### Mysql
 
-- 稍等中....
+- 常见点记录
 
-#### mini-programs
+#### wechat
 
 - H5授权登录
-- 公众测试号接入流程
+- 微信公众测试号接入流程
+- JSAPI支付
 
 #### Blog：[LaputCat](https://www.phpcoder.club/)
 
