@@ -1,3 +1,4 @@
+```php
 <?php
 
 /** * wechat php test */
@@ -110,10 +111,14 @@ class wechatTest
             $content,
             $funcFlag
         );
-
+    
         return $resultStr;
     }
     private function receiveEvent($object)
     {
     }
+
 }
+```
+
+

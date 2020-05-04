@@ -39,6 +39,8 @@ ALTER TABLE 表名 ADD COLUMN 字段名 字段类型(长度值) [NOT NULL] DEFAU
 
 //例子
 ALTER TABLE contract_templates ADD COLUMN contract_category_id int(11) NOT NULL DEFAULT 0 comment '范本分类ID' ;
+//删除指定数据
+DELETE FROM 表名 WHERE 列名=值；
 ```
 
 3.数据类型
