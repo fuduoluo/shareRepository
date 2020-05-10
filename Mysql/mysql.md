@@ -41,6 +41,8 @@ ALTER TABLE 表名 ADD COLUMN 字段名 字段类型(长度值) [NOT NULL] DEFAU
 ALTER TABLE contract_templates ADD COLUMN contract_category_id int(11) NOT NULL DEFAULT 0 comment '范本分类ID' ;
 //删除指定数据
 DELETE FROM 表名 WHERE 列名=值；
+//修改字段内容或者注释
+ALTER TABLE  efa_order modify column pay_type tinyint(2) NOT NULL COMMENT '购买方式1:微信,2:线下1';
 ```
 
 3.数据类型
