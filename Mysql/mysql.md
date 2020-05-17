@@ -43,6 +43,19 @@ ALTER TABLE contract_templates ADD COLUMN contract_category_id int(11) NOT NULL 
 DELETE FROM 表名 WHERE 列名=值；
 //修改字段内容或者注释
 ALTER TABLE  efa_order modify column pay_type tinyint(2) NOT NULL COMMENT '购买方式1:微信,2:线下1';
+
+//根据条件转换时间戳为日期格式
+UPDATE efa_credits_log
+SET create_time = CASE
+WHEN create_time = '' THEN
+	''
+WHEN create_time = 0 THEN
+	''
+WHEN create_time = 1 THEN
+	''
+ELSE
+	FROM_UNIXTIME(create_time)
+END;
 ```
 
 3.数据类型
