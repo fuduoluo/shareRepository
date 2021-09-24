@@ -24,9 +24,9 @@
 4. [codeList](#codeList)
 5. [SEO](#SEO)
 6. [Tool](#Tool)
-7. [Javascript](#Javascript)
+7. [Frontend](#Frontend)
 8. [Mysql](#Mysql)
-9. [wechat](#wechat)
+9. [Third-Party](#Third-Party)
 10. [link](#link)
 11. [Linux](#Linux)
 
@@ -57,7 +57,7 @@ ___
 - xmapp集成环境
 - GitHub小技巧
 
-#### Javascript
+#### Frontend
 
 - ES6
 - Vue
@@ -71,7 +71,7 @@ ___
  - Nginx
  - 怎么学Linux
  - 测试小案例
-#### wechat
+#### Third-Party
 
 - H5授权登录
 - 微信公众测试号接入流程

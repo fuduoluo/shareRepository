@@ -22,9 +22,9 @@
 4. [codeList](#codeList)
 5. [SEO](#SEO)
 6. [Tool](#Tool)
-7. [Javascript](#Javascript)
+7. [Frontend](#Frontend)
 8. [Mysql](#Mysql)
-9. [wechat](#wechat)
+9. [Third-Party](#Third-Party)
 10. [link](#link)
 
 ___
@@ -56,7 +56,7 @@ ___
 
 - GitHub tips
 
-#### Javascript
+#### Frontend
 
 - ES6
 - Vue
@@ -70,7 +70,7 @@ ___
  - Nginx
  - How to learn Linux
  - Test Case
-#### wechat
+#### Third-Party
 
 - h5 authorizes login
 
