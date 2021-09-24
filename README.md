@@ -28,6 +28,7 @@
 8. [Mysql](#Mysql)
 9. [wechat](#wechat)
 10. [link](#link)
+11. [Linux](#Linux)
 
 ___
 
@@ -66,6 +67,10 @@ ___
 
 - 常见点记录
 
+#### Linux
+ - Nginx
+ - 怎么学Linux
+ - 测试小案例
 #### wechat
 
 - H5授权登录

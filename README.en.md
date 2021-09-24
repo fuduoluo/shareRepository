@@ -66,6 +66,10 @@ ___
 
 - common point record
 
+#### Linux
+ - Nginx
+ - How to learn Linux
+ - Test Case
 #### wechat
 
 - h5 authorizes login
