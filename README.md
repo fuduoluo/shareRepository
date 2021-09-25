@@ -19,9 +19,9 @@
 #### Start here
 
 1. [Introduction](#Introduction)
-2. Backend
+2. [Backend](#Backend)
 3. [EdayFQA](#EdayFQA)
-4. [codeList](#codeList)
+4. [codeSegment](#codeSegment)
 5. [SEO](#SEO)
 6. [Tool](#Tool)
 7. [Frontend](#Frontend)
@@ -29,6 +29,7 @@
 9. [Third-Party](#Third-Party)
 10. [link](#link)
 11. [Linux](#Linux)
+12. [Install](#Install)
 
 ___
 
@@ -40,11 +41,17 @@ ___
 - 欢迎新建进行PR补充或者提交issue...
 - 整理不够完善，请见谅！！！
 
+#### Backend
+- Cakephp
+- Goland
+- Laravel
+- Lumen
+- TP
 #### EdayFQA
 
 - 每周遇到的问题汇总
 
-#### codeList
+#### codeSegment
 
 - js或者是PHP常用函数
 
@@ -76,7 +83,8 @@ ___
 - H5授权登录
 - 微信公众测试号接入流程
 - JSAPI支付
-
+#### Install 
+- 安装教程
 #### Blog：[LaputCat](https://www.phpcoder.club/)
 
 ![image.png](https://i.loli.net/2020/04/08/w2lTrb8pREieOtJ.png)
