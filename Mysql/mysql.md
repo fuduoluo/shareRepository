@@ -211,5 +211,21 @@ int(3/11):3或者11代表的是显示字符的长度，允许的最大值是INT�
        将一个实体信息的数据放在一个表内实现。
    ```
 
-   
+#### mysql 新建索引sql
+[参考文章](https://blog.csdn.net/muzhe1024/article/details/85949541)   
+
+```mysql
+1.添加PRIMARY KEY（主键索引）
+mysql>ALTER TABLE table_name ADD PRIMARY KEY ( column )
+2.添加UNIQUE(唯一索引)
+mysql>ALTER TABLE table_name ADD UNIQUE (
+column
+)
+3.添加INDEX(普通索引)
+mysql>ALTER TABLE table_name ADD INDEX index_name ( column )
+4.添加FULLTEXT(全文索引)
+mysql>ALTER TABLE table_name ADD FULLTEXT ( column)
+5.添加多列索引
+mysql>ALTER TABLE table_name ADD INDEX index_name ( column1, column2, column3 )
+```
 
